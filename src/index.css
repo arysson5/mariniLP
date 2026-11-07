@@ -1,0 +1,255 @@
+@import "@fontsource/hind/400.css";
+@import "@fontsource/hind/500.css";
+@import "@fontsource/hind/600.css";
+@import "@fontsource/hind/700.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "tailwindcss";
+
+/* Telas de toque (sem hover): estado ativado quando a seção #origem entra na tela */
+@custom-variant touch-on {
+  @media (hover: none) {
+    #origem.is-inview & {
+      @slot;
+    }
+  }
+}
+
+@theme {
+  --font-sans: "Roboto", sans-serif;
+  --font-display: "Hind", sans-serif;
+  --color-navy: #1c226e;
+  --color-navy-deep: #121648;
+  --color-coral: #c35e5e;
+  --color-silk: #f6f3ef;
+  --color-ink: #1c226e;
+  --animate-role-in: role-in 280ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@keyframes role-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: auto;
+  scrollbar-color: #1c226e #f6f3ef;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
+  margin: 0;
+  background: #f6f3ef;
+  color: #1c226e;
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.silk-band,
+.silk-page {
+  background-color: #f6f3ef;
+}
+
+.silk-band {
+  background-image:
+    linear-gradient(rgba(246, 243, 239, 0.9), rgba(246, 243, 239, 0.94)),
+    url("/midias/fundos/full-frame-of-white-silk-cloth-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-copy[data-hold="true"] {
+  opacity: 0;
+  transform: translateY(16px) scale(0.98);
+}
+
+.field {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: #fff;
+  padding: 0.75rem 0.85rem;
+  font: inherit;
+  /* 16px impede o zoom automático do Safari no iOS ao focar o campo */
+  font-size: 16px;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: border-color 200ms ease, background-color 200ms ease;
+}
+
+.field:focus {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.field::placeholder {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+::selection {
+  background: #c35e5e;
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid #c35e5e;
+  outline-offset: 3px;
+}
+
+input,
+textarea {
+  caret-color: #1c226e;
+}
+
+.shader-container-exploded canvas {
+  position: absolute !important;
+  inset: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 999px !important;
+}
+
+.cta-halo {
+  background: rgba(195, 94, 94, 0.55);
+  animation: cta-halo 2.6s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+@keyframes cta-halo {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  70%,
+  100% {
+    transform: scale(1.12, 1.4);
+    opacity: 0;
+  }
+}
+
+.cta-shine {
+  left: -50%;
+  background: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.45) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+  animation: cta-shine 3.4s cubic-bezier(0.45, 0, 0.2, 1) infinite;
+}
+
+@keyframes cta-shine {
+  0%,
+  55% {
+    left: -50%;
+  }
+  85%,
+  100% {
+    left: 130%;
+  }
+}
+
+.group\/cta:hover .cta-shine {
+  animation-duration: 1.5s;
+}
+
+/* Botão flutuante: respeita a área segura do iPhone (notch / barra home) */
+.floating-quote {
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, calc(env(safe-area-inset-bottom) + 0.75rem));
+}
+
+@media (min-width: 768px) {
+  .floating-quote {
+    right: max(2rem, env(safe-area-inset-right));
+    bottom: max(2rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Galeria: rolagem horizontal por toque, sem barra visível */
+.jobs-scroller {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  touch-action: pan-x pan-y;
+}
+
+.jobs-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.job-card img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.swipe-hint {
+  animation: swipe-hint 1.6s cubic-bezier(0.45, 0, 0.2, 1) infinite;
+}
+
+@keyframes swipe-hint {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .job-card .job-caption {
+    transition: transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .job-card:hover .job-caption {
+    transform: translateY(-4px);
+  }
+}
+
+/* Jobs: leve zoom ao passar o mouse */
+.job-card img {
+  transition: transform 700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .job-card:hover img {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes liquid-ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.95);
+    opacity: 0.55;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(4);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .liquid-ripple,
+  .animate-role-in,
+  .cta-halo,
+  .cta-shine,
+  .swipe-hint {
+    animation: none !important;
+  }
+
+  .liquid-ripple {
+    opacity: 0 !important;
+  }
+}

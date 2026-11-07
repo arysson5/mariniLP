@@ -1,0 +1,302 @@
+{
+  "marca": {
+    "nome": "Marini Casting",
+    "nome_legal_publico": "Marini Casting",
+    "slogan_operacional": "Presença com propósito",
+    "descritor": "Agência de casting de equipes para eventos, ativações e produções",
+    "site": "https://marinicasting.com.br/",
+    "instagram": "https://www.instagram.com/marinicasting/",
+    "linkedin": "https://www.linkedin.com/company/marini-casting/",
+    "fundacao": 2011,
+    "tempo_de_mercado_comunicado": "mais de 15 anos",
+    "sede": {
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "pais": "Brasil",
+      "endereco_publico": "Rua Maguatá, 50, São Paulo",
+      "regiao_no_mapa": "Vila Cordeiro"
+    },
+    "cobertura": "Todo o Brasil",
+    "fundadora": {
+      "nome": "Marisa Marini",
+      "cargo": "CEO / proprietária",
+      "formacao": "Administração de Empresas e pós-graduação em Gestão de Marketing pela ESPM",
+      "trajetoria": "Começou em campo como promotora e produtora, em litorais de São Paulo e do Nordeste e em temporadas de inverno. Passou pelas agências B/Ferraz e Accentiv como produtora de eventos antes de fundar a Marini."
+    }
+  },
+  "paleta": {
+    "origem": "Cores oficiais extraídas do SVG do logo e das cores computadas do site atual.",
+    "oficial": {
+      "navy": {
+        "hex": "#1C226E",
+        "rgb": "28, 34, 110",
+        "uso": "Cantoneira inferior direita do logo, texto institucional, título 'Junte-se a nós'"
+      },
+      "coral": {
+        "hex": "#C35E5E",
+        "rgb": "195, 94, 94",
+        "uso": "Cantoneira superior esquerda do logo e ícones sociais"
+      },
+      "branco": {
+        "hex": "#FFFFFF",
+        "uso": "Wordmark, textos sobre foto e faixas escuras"
+      }
+    },
+    "aplicadas_no_site": {
+      "rosa_titulo": "#C25D5D",
+      "botao": "#C55A5E",
+      "nav_ativo": "#C71538",
+      "faixa_rodape": "#AC3C52",
+      "roxo_nav_rodape": "#322B82",
+      "texto_titulo": "#2F2F2F",
+      "texto_corpo": "#7B7B7B",
+      "texto_suave": "#777E90",
+      "texto_escuro": "#23262F"
+    },
+    "atmosferas": [
+      "Degradê do botão principal: coral/rosa para roxo",
+      "Faixa de serviços: azul-marinho para magenta",
+      "Faixa de clientes: pêssego/salmão",
+      "Retratos do time com véu avermelhado",
+      "Fundo de seda branca nas seções claras"
+    ],
+    "recomendacao_para_a_landing": "Travar a marca em navy #1C226E e coral #C35E5E. O vermelho vivo #C71538 e os vários rosas próximos hoje competem entre si. O degradê coral-roxo pode continuar só no botão principal."
+  },
+  "tipografia": {
+    "titulos": "Hind, peso 600 e 700",
+    "corpo_botoes_menu": "Roboto, pesos 400, 500 e 600",
+    "fallback_do_tema": "Montserrat",
+    "assinatura": "Caligrafia 'Marisa Marini' na seção Quem Somos",
+    "logo": "Wordmark geométrico próprio: MARINI em caixa alta, 'casting' menor abaixo, fechado por dois L — coral em cima à esquerda e navy embaixo à direita"
+  },
+  "identidade_visual": {
+    "personalidade": [
+      "humana",
+      "segura",
+      "prática de bastidor",
+      "elegante sem ser fria",
+      "energética quando mostra o job"
+    ],
+    "assinatura_grafica": "Cantoneiras em L do logo, navy e coral, fotografia real de equipes uniformizadas em campo",
+    "fotografia": "Times reais em uniforme da marca do cliente, em evento, festival, PDV, paddock e ativação. Diversidade de pessoas, sorriso e postura de quem está trabalhando, não pose de moda.",
+    "o_que_evitar": [
+      "Ilustração genérica de pessoas (hoje usada na faixa de serviços)",
+      "Véu vermelho forte cobrindo os retratos do time",
+      "Estética de agência de modelos ou fashion",
+      "Estoque de fotos sem marca e sem uniforme"
+    ],
+    "referencias_visuais_coletadas": "pesquisa/midias/"
+  },
+  "posicionamento": {
+    "frase": "Casting não é sobre volume. É sobre valor.",
+    "promessa": "A equipe certa para a marca se apresentar com presença, postura e autenticidade.",
+    "diferenca": "A agência nasceu de quem já esteve no backstage. A seleção lê o contexto da ação, não só preenche vaga.",
+    "atributos": [
+      "personalização",
+      "agilidade",
+      "transparência",
+      "cuidado humano",
+      "leitura de briefing",
+      "cobertura nacional"
+    ],
+    "promessas_publicas_de_processo": [
+      "Briefing lido e entendido, sem atalho",
+      "Equipe experiente e alinhada ao perfil do evento"
+    ],
+    "categoria_percebida": "Casting estratégico de equipes para live marketing, não agência de modelos."
+  },
+  "mercado": {
+    "tipo": "B2B de serviços",
+    "setor": "Eventos, live marketing e marketing promocional",
+    "industria_linkedin": "Events Services",
+    "modelo": "Empresa própria, sede em São Paulo, operação nacional",
+    "compradores": [
+      "Agências de live marketing e eventos",
+      "Marcas que ativam em PDV, festival, feira, congresso e lançamento",
+      "Produtoras que precisam de elenco para campanha e audiovisual"
+    ],
+    "oferta": [
+      "Casting para eventos e ativações de marketing",
+      "Ações de abordagem",
+      "Produção",
+      "Receptivos",
+      "Blitz",
+      "Projetos especiais",
+      "Casting publicitário",
+      "Sampling",
+      "Casting para produções audiovisuais",
+      "Degustação",
+      "Supervisão"
+    ],
+    "perfis_de_campo": [
+      "promotores",
+      "recepcionistas",
+      "coordenação",
+      "equipes de abordagem, sampling e degustação"
+    ],
+    "occasioes": [
+      "festivais",
+      "feiras e congressos",
+      "ativações de marca",
+      "PDV",
+      "lançamentos",
+      "eventos esportivos e de entretenimento",
+      "gravações"
+    ],
+    "concorrencia_percebida_no_instagram": [
+      "agências de promoção e casting de eventos, como 4 Even Casting e LB Agência"
+    ]
+  },
+  "publicos": {
+    "principal": {
+      "quem": "Agência ou marca que precisa de equipe para uma ação",
+      "quer": "Orçamento, segurança de entrega e gente que sustenta a linguagem da marca",
+      "canal": "contato@marinicasting.com.br, formulário e WhatsApp"
+    },
+    "secundario": {
+      "quem": "Profissional que quer entrar no casting",
+      "quer": "Ser visto para eventos, campanhas e audiovisual em todo o Brasil",
+      "canal": "casting01@marinicasting.com.br e casting02@marinicasting.com.br",
+      "material_pedido": "fotos, medidas, cidade e contatos"
+    }
+  },
+  "voz": {
+    "tom": "Direto, caloroso e profissional. Fala de bastidor com orgulho, sem gíria vazia.",
+    "pessoa": "Primeira pessoa do plural: 'a gente', 'nossa equipe'",
+    "palavras_da_marca": [
+      "presença com propósito",
+      "valor, não volume",
+      "backstage",
+      "equipe certa",
+      "postura",
+      "autenticidade",
+      "agilidade",
+      "transparência",
+      "todo o Brasil"
+    ],
+    "instagram": {
+      "nome": "Marini Casting | Equipes para Eventos",
+      "usuario": "@marinicasting",
+      "seguidores": "32,5 mil",
+      "seguindo": 111,
+      "bio": "Equipes para grandes eventos e ativações. Casting, receptivo e coordenação. 15 anos de experiência. Todo o Brasil.",
+      "destaques": ["Eventos", "Marcas", "Contato", "Casting"],
+      "local_dos_posts": "São Paulo, Brazil",
+      "exemplo_de_legenda": "A Fórmula 1 chegou a São Paulo. Nas salas VIP dos aeroportos de Congonhas e Guarulhos, a equipe recebe o público e orienta quem entra nos simuladores de corrida.",
+      "hashtags_recorrentes": ["#MariniCasting", "#casting", "#Formula1", "#F1Brasil", "#GPBrasil"]
+    },
+    "linkedin": {
+      "seguidores_indexados": 441,
+      "equipe_indexada": "cerca de 7 pessoas",
+      "temas": [
+        "casting estratégico",
+        "triagem cuidadosa de material",
+        "Marini Inova, ciclo de treinamentos",
+        "presença em The Town, Rock in Rio, Afropunk e Lollapalooza"
+      ]
+    }
+  },
+  "time": [
+    {"nome": "Marisa Marini", "funcao": "CEO"},
+    {"nome": "Nicole Rodrigues", "funcao": "Produção de Casting"},
+    {"nome": "Cris Jucá", "funcao": "Financeiro"},
+    {"nome": "Danna Sitta", "funcao": "Produção e Atendimento"}
+  ],
+  "prova_social": {
+    "logos_no_site": [
+      "Jeep",
+      "Seara",
+      "Tele Sena",
+      "Universal Music Group",
+      "Roca",
+      "Fiat",
+      "iFood",
+      "Ontex",
+      "Kiko Milano",
+      "Listerine",
+      "Club Social",
+      "Porsche",
+      "Vivo",
+      "Francis",
+      "Ticket",
+      "Bradesco",
+      "Porto Seguro",
+      "Elo",
+      "Lacta",
+      "Abarth",
+      "Brastemp",
+      "TikTok",
+      "Netflix",
+      "G20 Brasil 2024",
+      "Suvinil",
+      "Superbet",
+      "Santander"
+    ],
+    "observacao_logos": "Nomes lidos visualmente dos arquivos em pesquisa/midias/clientes. Confirmar a lista antes de publicar.",
+    "jobs_vistos": [
+      "Porto",
+      "Jeep",
+      "Seara",
+      "Magnum",
+      "Senna",
+      "UBS",
+      "RAM",
+      "Bradesco na F1",
+      "Eisenbahn",
+      "Stock Car",
+      "Lagunitas",
+      "Fórmula 1 nos aeroportos de Congonhas e Guarulhos"
+    ],
+    "palcos_citados_no_linkedin": [
+      "The Town, com Riachuelo, Club Social e Sabesp",
+      "Rock in Rio",
+      "Afropunk",
+      "Lollapalooza 2025"
+    ]
+  },
+  "contatos": {
+    "comercial": "contato@marinicasting.com.br",
+    "casting": ["casting01@marinicasting.com.br", "casting02@marinicasting.com.br"],
+    "whatsapp_no_instagram": "https://wa.me/5511994929630",
+    "whatsapp_no_site": "o ícone existe, mas o link está vazio",
+    "formulario": "Nome, e-mail e mensagem. O botão do hero 'Fale com a gente!' aponta para # e não desce até o contato."
+  },
+  "textos_atuais": {
+    "hero": "Há mais de 15 anos, ajudamos empresas e agências a encontrarem a equipe certa para transformar eventos e ativações de marca em experiências inesquecíveis.",
+    "galeria": "Na Marini, casting não é sobre volume. É sobre valor. E é isso que seguimos entregando: presença com propósito.",
+    "servicos": "Do briefing à execução, cuidamos de cada etapa com estratégia, agilidade e criatividade.",
+    "quem_somos": "A Marini Casting nasceu de quem já viveu a realidade do backstage. Mais do que selecionar perfis, a Marini desenvolve profissionais preparados para representar marcas com presença, postura e autenticidade.",
+    "time": "Por trás de cada entrega bem-sucedida, está um time comprometido com excelência, agilidade e cuidado em cada detalhe.",
+    "talentos": "Se você tem atitude, profissionalismo e está pronto(a) para viver novas experiências em eventos, campanhas ou produções audiovisuais, a Marini Casting quer te conhecer."
+  },
+  "midias_baixadas": {
+    "pasta": "pesquisa/midias",
+    "marca": [
+      "pesquisa/midias/marca/Design-sem-nome-89.png",
+      "pesquisa/midias/marca/logo_marini-01.svg",
+      "pesquisa/midias/marca/logo_marini-03.svg",
+      "pesquisa/midias/marca/cropped-favicon-270x270.png"
+    ],
+    "hero": "pesquisa/midias/hero",
+    "galeria": "pesquisa/midias/galeria",
+    "time": "pesquisa/midias/time",
+    "quem_somos": "pesquisa/midias/quem-somos",
+    "clientes": "pesquisa/midias/clientes",
+    "fundos": "pesquisa/midias/fundos",
+    "mosaico_de_logos": "pesquisa/midias/_contato-clientes.jpg"
+  },
+  "fontes": {
+    "coletado_em": "2026-11-07",
+    "site": "https://marinicasting.com.br/",
+    "instagram": "Perfil público aberto. Bio, destaques, grade e a legenda do post de 7 de novembro de 2026. O Instagram pede login para ver a grade completa.",
+    "linkedin": "A página da empresa caiu em muro de login. Os trechos usados vieram de resultados públicos indexados da empresa e de posts."
+  },
+  "a_confirmar_com_o_cliente": [
+    "Lista final de logos que podem aparecer na landing",
+    "WhatsApp oficial: o do Instagram é 11 99492-9630 e o site não tem número",
+    "Qual e-mail fica no botão principal: contato@ ou outro",
+    "Números de prova (eventos, promotores, clientes). Há menções antigas na web que o site atual não usa",
+    "O terceiro ponto da promessa de processo publicada no LinkedIn, cujo texto indexado vinha cortado",
+    "Se a landing fala primeiro com marcas e agências, com talentos, ou com os dois em pesos iguais"
+  ]
+}
